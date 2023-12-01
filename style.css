@@ -1,0 +1,179 @@
+@import url("https://fonts.googleapis.com/css2?family=Inconsolata:wght@200;300;400;500;600;700;800;900&family=Montserrat+Alternates:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Rajdhani:wght@300;400;500;600;700&display=swap");
+
+body {
+  margin: 0;
+  font-family: "Rajdhani", sans-serif;
+}
+
+body * {
+  box-sizing: border-box;
+}
+
+section,
+header,
+footer,
+nav {
+  /* border: solid, 1px, black; */
+  padding: 20px;
+}
+
+main {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+section {
+  min-height: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+header {
+  position: fixed;
+  top: 30px;
+  left: 40px;
+}
+
+nav {
+  position: fixed;
+  width: 60px;
+  right: 0;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 50px 0px;
+  background-color: #3789ce;
+}
+
+nav a,
+nav button {
+  transform: rotate(90deg);
+}
+
+main,
+footer {
+  margin-right: 60px;
+}
+
+#s1 {
+  background-color: #fddfed;
+  grid-column: 1 / span 2;
+  min-height: 95vh;
+  /* color: white; */
+}
+
+#s2,
+#s3,
+#s4,
+#s5,
+#s6,
+#s7,
+#s8,
+#s9 {
+  text-align: center;
+}
+
+#s1 h2 {
+  font-size: 45px;
+  margin: 0;
+}
+
+#s1 p {
+  font-size: 35px;
+  /* width: 60vh; */
+  max-width: 700px;
+  /* centers section 1 */
+  line-height: 1.5em;
+  text-align: center;
+  margin: 0;
+}
+
+#s2 {
+  background-color: #d6f6ff;
+  /* padding-left: 70px; */
+}
+
+#s2 img {
+    width: 70%;
+    margin-bottom: 30px;
+}
+/* #chessboard {
+  width: 400px;
+  height: 400px;
+}
+.chess-square {
+  float: left;
+  width: 48px;
+  border: 1px solid black;
+  height: 48px;
+  background-color: #fff;
+} */
+
+.button {
+  font: bold 11px Arial;
+  text-decoration: none;
+  background-color: #eeeeee;
+  color: #333333;
+  padding: 2px 6px 2px 6px;
+  border-top: 1px solid #cccccc;
+  border-right: 1px solid #333333;
+  border-bottom: 1px solid #333333;
+  border-left: 1px solid #cccccc;
+}
+
+#s3 {
+  background-color: #b3f5bc;
+}
+
+#s4 {
+  background-color: #f9ffb5;
+}
+
+#s5 {
+  background-color: #f7f1d9;
+}
+
+#s6 {
+  background-color: #ffe699;
+}
+
+#s7 {
+  background-color: #e4f6fa;
+}
+
+#s8 {
+  background-color: #cedbd6;
+}
+
+#s9 {
+  background-color: #e5e4f1;
+}
+
+/* p, btn2 {
+     background-color: lightgrey;
+  width: 300px;
+  border: 15px solid black;
+  padding: 50px;
+  margin: 20px;
+} */
+
+footer {
+  background-color: #f7edac;
+}
+
+/* #mainChessBoard
+{
+    width:160px;
+    height:160px;
+    border:1px solid black;
+}
+
+div
+{
+ width:20px;
+ height:20px;
+ float:left;
+}  */

@@ -1,0 +1,12 @@
+#chessboard {
+    width: 400px;
+    height: 400px;
+  }
+  .chess-square {
+    float: left;
+    width: 48px;
+    border: 1px solid black;
+    height: 48px;
+    background-color: #fff;
+  }
+  
